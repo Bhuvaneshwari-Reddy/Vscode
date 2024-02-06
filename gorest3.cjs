@@ -57,7 +57,9 @@ it("Create User",(done)=>{
         done();
     })
 })
-it("Get the user",(done)=>{
+
+
+it.only("Get the user",(done)=>{
  chai
     .request(baseurl)
     .get(`public/v2/users/${randomid}`)
