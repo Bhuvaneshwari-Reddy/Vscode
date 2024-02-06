@@ -18,10 +18,10 @@ beforeEach(()=>{
     })
 
 
-afterEach(()=>{
-    console.log("Test case has been passed successfully")
+// afterEach(()=>{
+//     console.log("Test case has been passed successfully")
 
-})
+// })
 
 // const randomname="John"+Math.floor(Math.random()*1000+10)
 const randomemail="John"+Math.floor(Math.random()*1000+10)+"@gmail.com"
